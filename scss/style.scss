@@ -1,0 +1,31 @@
+$mainColor: #337ab7;
+
+h1,h2,h3 {
+  text-align: center;
+}
+
+.d3-tip {
+  
+  background: rgba(51, 132, 145, 0.8);
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 2px;
+  
+  
+}
+
+
+rect:hover {
+  fill: darkseagreen;
+}
+
+svg {
+    display: block;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+  
+    border-radius: 10px;
+    border: 2px solid $mainColor;
+}
+
